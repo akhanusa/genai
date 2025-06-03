@@ -1,0 +1,10 @@
+langchain 
+python-dotenv 
+streamlit 
+faiss-cpu 
+tiktoken 
+protobuf 
+langchain-community
+langchain-google-genai
+sentence_transformers 
+langchain_huggingface
