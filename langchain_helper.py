@@ -7,6 +7,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 import os
+import streamlit as st
 
 # from dotenv import load_dotenv
 # load_dotenv()  # take environment variables from .env (especially openai api key)
