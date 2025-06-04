@@ -16,7 +16,7 @@ import streamlit as st
 gemini_api_key = st.secrets["GEMINI_API_KEY"]
 
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash",google_api_key)
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash",gemini_api_key)
 
 
 model_name = "hkunlp/instructor-large"
