@@ -8,10 +8,14 @@ from langchain.vectorstores import FAISS
 from langchain.prompts import PromptTemplate
 import os
 
-from dotenv import load_dotenv
-load_dotenv()  # take environment variables from .env (especially openai api key)
+# from dotenv import load_dotenv
+# load_dotenv()  # take environment variables from .env (especially openai api key)
 
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash",google_api_key=os.environ["GOOGLE_API_KEY"])
+# Access the secret
+gemini_api_key = st.secrets["GEMINI_API_KEY"]
+
+
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash",google_api_key)
 
 
 model_name = "hkunlp/instructor-large"
