@@ -1,4 +1,4 @@
-Prompt,Response
+prompt,response
 What does IPsec stand for?,IPsec stands for Internet Protocol Security.
 What is the primary purpose of IPsec?,IPsec's primary purpose is to provide secure communication over an IP network by authenticating and encrypting each IP packet.
 What are the two main IPsec protocols?,The two main IPsec protocols are Authentication Header (AH) and Encapsulating Security Payload (ESP).
