@@ -1,254 +1,121 @@
-prompt,response
-I have never done programming in my life. Can I take this bootcamp?,"Yes, this is the perfect bootcamp for anyone who has never done coding and wants to build a career in the IT/Data Analytics industry or just wants to perform better in your current job or business using data."
-Why should I trust Codebasics?,Till now 9000 + learners have benefitted from the quality of our courses. You can check the review section and also we have attached their LinkedIn profiles so that you can connect with them and ask directly.
-Is there any prerequisite for taking this bootcamp ?,"Our bootcamp is specifically designed for beginners with no prior experience in this field. The only prerequisite is that you need to have a functional laptop with at least 4GB ram, an internet connection, and a thrill to learn data analysis."
-"What datasets are used in this bootcamp? Is it some toy datasets or
- something that mimics a real-world business problem?",The datasets used in this bootcamp are crafted from scratch to mimic the real business world by consolidating our years of experience. The datasets not just contain more than a million rows but also cover multiple facets of the business.
-"I’m not sure if this bootcamp is good enough for me to invest some 
-money. What can I do?",We got you covered. Go ahead and watch our youtube videos if you like them and want to learn further then this bootcamp is the perfect extension.
-How can I contact the instructors for any doubts/support?,"We have created every lecture with a motive to explain everything in an easy-to-understand manner. While working on these lectures you could make mistakes in steps or have some doubts. You need to commit yourself to hold patience, make efforts & diagnose the errors yourself by googling in order to become truly job ready. For any questions, that Google cannot answer or if you hit a wall - we got you covered! You can join our active discord community. which is a dedicated platform to discuss & clear your doubts with fellow learners & mentors. "
-What if I don’t like this bootcamp?,As promised we will give you a 100% refund based on the guidelines (Please refer to our course refund policy before enrolling).
-Does this bootcamp have lifetime access?,Yes
-What is the duration of this bootcamp? How long will it last?,You can complete all courses in 3 months if you dedicate 2-3 hours per day.
-Can I attend this bootcamp while working full time?,Yes. This bootcamp is self-paced. You can learn on your own schedule.
-What kind of skills can I expect to learn in this bootcamp?,"You can expect to learn tech skills like Python, Excel, SQL, and Power BI along with other skills like basic project management, stakeholder management, communication skills, and Business knowledge for domains like Finance, Supply chain, Sales, and Marketing."
-Do you provide any job assistance?,"Yes, We help you with resume and interview preparation along with that we help you in building online credibility, and based on requirements we refer candidates to potential recruiters."
-"Is this bootcamp enough for me in Microsoft Power BI and
- Excel certifications?","Yes, this bootcamp will certainly help because we cover the majority of the skills measured in these exams. However, please be informed that this course focuses on Job ready aspects and not on all aspects required to clear the exams. In addition to this course, you might need to visit the official learning material designed by Microsoft which is available for free on their website."
-Do we have an EMI option?,No
-Do you provide any virtual internship?,Yes 
-Will this bootcamp guarantee me a job?,"The courses included in this bootcamp are done by 9000+ learners and many of them have secured a job which gives us ample confidence that you will be able to get a job. However, we want to be honest and do not want to make any impractical promises! Our guarantee is to prepare you for the job market by teaching the most relevant skills, knowledge & timeless principles good enough to fetch the job."
-"I have zero knowledge of Excel and belong to a non-technical
- background. Can I take this course?","Yes, this is the perfect course for anyone who has never worked on excel and wants to build a career in the IT/Data Analytics industry or just wants to perform better in their current job or business using data."
-What are the things I need to know before starting this course?,This course is for absolute beginners hence you do not need any specific skills other than basic familiarity with computers
-What is different in this course compared to hundreds of courses on the internet and free tutorials on YouTube?,Most of the courses available on the internet teach you how to build x & y without any business context and do not prepare you for real business world problem-solving. This course is rather an experience in which you will learn Excel by solving real-life use cases in an imaginary company called AtliQ Hardware. The tutorials are very easy to understand and also have a lot of fun elements into them so that you don’t get bored ??
-Can I add this course to my resume?,Yes. Absolutely you can mention the AtliQ Hardware project experience in your resume with the relevant skills that you will learn from this course
-I’m not sure if this course is good enough for me to invest some money. What can I do?,"Don’t worry. Many videos in this course are free so watch them to get an idea of the quality of teaching. Dhaval Patel (the course instructor) runs a popular data science YouTube channel called Codebasics. On that, you can watch his videos and read comments to get an idea of his teaching style"
-What dataset is used in this course? Is it some toy dataset or something that mimics a real-world problem?,"For initial basics, we have used a toy dataset of movies but for advanced concepts, we used a dataset that is crafted to mimic the real business world by consolidating our years of experience and the FMCG industry. That dataset contains more than 1 million records."
-"Once purchased, is this course available for lifetime access?",Yes
-How can I get help if I have a doubt and need support?,We have an active discord server where you can post your question and most of the time you will get an answer in a reasonable time frame.
-I have never done programming and belong to a non-technical background. Can I take this course?,"Yes, this is the perfect course for anyone who has never done coding and wants to build a career in the IT/Data Analytics industry or just wants to perform better in their current job or business using data."
-"
-I don’t have a laptop, can I take this course?",We recommend learning by doing and therefore you need to have a laptop or a PC (at least 4 GB ram).
-Will the course help me in PL - 300 Microsoft exam preparation?,"Yes, this course will certainly help because we cover the majority of the skills measured in the PL - 300 exam in this course. However, please be informed that this course focuses on Job ready aspects and not on all aspects required to clear PL - 300 exam. In addition to this course, you might need to visit the official learning material designed by Microsoft which is available for free -> https://docs.microsoft.com/en-us/certifications/exams/pl-300?tab=tab-learning-paths"
-Will the course be upgraded when there are new features in Power BI?,"Yes, the course will be upgraded periodically based on the new features in Power BI, and learners who have already bought this course will have free access to the upgrades."
-"I use tableau, can I take this course?","Yes, you will still benefit from the concepts outside the tools that are discussed in this course such as business context, problem solving, project management tools, etc."
-"
-Power BI or Tableau which one is better?","This is a contextual question. If you are talking about a pure visualization tool Tableau is slightly better. Data connectors, modeling and transformation features are available in both. However, factually speaking Power BI is cheaper and offers tighter integration with the Microsoft environment. Since most companies use excel & Microsoft tools they start with Power BI or move towards Power BI for seamless integration with other Microsoft tools (called as Power platform). This makes the job openings grow at a much higher rate on Power BI and Power Platform. Also, Power BI has been leading the Gartner’s magic quadrant in BI for the last few years as the industry leader."
-What dataset is used in this course? Is it some Toy dataset or something that mimics a real-world business problem?,"The dataset used in this course is crafted from scratch to mimic the real business world by consolidating our years of experience. The dataset not just contains more than a million rows but also covers multiple facets of business data such as sales, finance, targets, forecasts, products, etc."
-Does Power BI work in Mac OS/Ubuntu?,"Power BI desktop works only in Windows OS. Please look into the system requirements section on this page. However, you can use a virtual machine to install and work with Power BI in other Operating systems."
-What business concepts and domains are covered in this course?,"We have covered the core functions such as Sales, Marketing, Finance, and Supply Chain with their fundamentals related to this course. The domain you will learn in this course is consumer goods which is projected to have more openings and high data analytics requirements at least until 2030."
-Will this course guarantee me a job?,"We created a much lighter version of this course on YouTube available for free (click this link) and many people gave us feedback that they were able to fetch jobs (see testimonials). Now this paid course is at least 5x better than the YouTube course which gives us ample confidence that you will be able to get a job. However, we want to be honest and do not want to make any impractical promises! Our guarantee is to prepare you for the job market by teaching the most relevant skills, knowledge & timeless principles good enough to fetch the job."
-"Can I add this course to my resume? If Yes, how?","Absolutely, we have a section in this course explaining how you can add the learnings from this course in your resume that will appeal to the hiring team."
-Is there any prerequisite for taking this course?,"The only prerequisite is that you need to have a functional laptop with at least 4GB ram, internet connection and a thrill to learn data analysis."
-What is different in this course from thousands of other Power BI courses available online?,"Most of the courses available on the internet teach you how to build x & y without any business context and do not prepare you for the real business world. This course is rather an experience in which you will learn how to use Power BI & other non-technical skills to solve a real-life business problem using analytics. Here you focus on solving a business problem and in that process learn how Power BI can be used as a tool. This is how you will do the work when you start working as a data analyst/ Business analyst/ Power BI developer in the industry. This course will prepare you for not just fetching the job but, shine in it & grow further."
-"I already know basic Power BI, what benefit do I get by taking this course?","This course is taught through a true end-to-end project in a Consumer goods company involving all the steps mimicking the real business environment, so you will learn how to execute end-to-end projects Power BI projects successfully along with the business fundamentals. You will learn a lot of extra things such as Project management tools, effective communication techniques & organizational nuances."
-How to install power pivot if its not available in system?,"Follow this thread for instructions - https://support.microsoft.com/en-us/office/start-the-power-pivot-add-in-for-excel-a891a66d-36e3-43fc-81e8-fc4798f39ea8
-If it doesn't show in the ribbon then go to ""insert"" tab. You will be able to see pivot table option there."
-"Hi all, could someone please help me understand what I am writing wrong in this code?","Go to ChatGPT (https://chat.openai.com/) and type this command
-
-Debug me this code ( copy paste your code)
-
-
-Why I am suggesting this way is once you learn it you will love it. 
-And it will be SUPER USEFUL in your career when you get a data analyst jobs. Companies love folks who are capable of finding their answers on their own (Using Google, ChatGPT etc.)"
-"I am getting this error, what is wrong?","Go to ChatGPT (https://chat.openai.com/) and type this command
-
-Debug me this code ( copy paste your code) and also provide the error you are getting
-
-
-Why I am suggesting this way is once you learn it you will love it. 
-And it will be SUPER USEFUL in your career when you get a data analyst jobs. Companies love folks who are capable of finding their answers on their own (Using Google, ChatGPT etc.)"
-"Hey all, I've been trying this for past one hour but not working. 
-I am getting this error in my SQL code, what could be wrong?","Go to ChatGPT (https://chat.openai.com/) and type this command
-
-Debug me this code ( copy paste your code) and also provide the error you are getting
-
-
-Why I am suggesting this way is once you learn it you will love it. 
-And it will be SUPER USEFUL in your career when you get a data analyst jobs. Companies love folks who are capable of finding their answers on their own (Using Google, ChatGPT etc.)"
-when I am entering the index match formula in the cell outside the table it is working and when i enter the same formula inside the table cell it is showing a SPILL! error ..why?,"Go to ChatGPT (https://chat.openai.com/) and ask this same question.
-
-Why I am suggesting this way is once you learn it you will love it. 
-And it will be SUPER USEFUL in your career when you get a data analyst jobs. Companies love folks who are capable of finding their answers on their own (Using Google, ChatGPT etc.)"
-I am not allowing to post doubt in the discord group,"Sure I can guide you
-
-Go to the 'click-here-to-ask-questions' section and verify yourself here by clicking on the checkmark."
-How can I use PowerBI on my Mac system?,"Hi
-
-You can use VirtualBox to create a virtual machine and install Windows on it. This will allow you to run Power BI and Excel on your Mac.
-
-If you're not familiar with setting up a virtual machine, there are many resources available on YouTube that can guide you through the process. Simply search for ""installing virtual machines"" and you'll find plenty of helpful videos.
-
-Best of luck with your studies!"
-"In sales analytics chapter , when creating pivot table a blank column is getting added. How to solve this?","Hi, please check these instructions.
-
-Option - 1:
-If you are from India, you can change your system default date format to India, then restart your computer once. and see, whether it fixed your issue or not. Else you can follow the second option.
-
-Option - 2:
-
-1. Reason for the Issue:
-In the dim_date table, the date is in dd/mm/yyyy format. Whereas the fact table is in mm/dd/yyyy format. Because of the different formats, causing the issue. Power BI/Excel will likely use your system's default date format whenever you open any file. This could cause the date format issue - dd/mm/yyyy --- mm/dd/yyyy. Please look for this whenever you face issues with values mismatch.
-
-2. Steps to resolve:
-    1. Change the data type of the date column to ‘Date’ if it is in ‘Date/Time’ format. Skip this step if it is already in ‘Date’ format.
-    2. Create a new custom column in the fact_sales_monthly table. you can name it date_modified or any other name accordingly.
-    Formula
-    = Date.ToText([date],""yyyy"") & ""/"" & Text.PadStart(Text.From(Date.Day([date])),2,""0"") & ""/"" & Text.PadStart(Text.From(Date.Month([date])),2,""0"")
-    3. change the data type of the above-created column to date.
-    4. In Power Pivot, Go to the 'Manage' tab and select the 'Diagram' view. Map the date column in the 'dim_date' table with the newly created column in the 'fact_sales_monthly' table. Make sure to delete the previous relationship (date from fact_sales_month)."
-"why row and value option is not showing for the visual in PowerBI , any setting need to be change, please let me know?",You have selected Table Visual instead of Matrix. That is why you are seeing a different interface.
-"Hello, I have a issue to calculate WHF%. Can you give me numbers for checklist and debbuging?","Hello 
-
-Please confirm whether you got these values right!
-
-Before Data Cleaning Stats:
-Number of rows: 6336
-Number of distinct employees: 198
-Number of distinct employee_id: 106
-
-After Data Cleaning Stats:
-Number of rows: 6208
-Number of distinct employees: 99
-Number of distinct employee_id: 74
-
-If these values are not matching, I highly suggest doing the data-cleaning steps correctly (mainly removing duplicates)"
-How do become good and comfortable with SQL?,"To master SQL, we need to practice it every day and keep in touch with it all the time.
-
----
-Here are some references where you can practice daily. First start with easy problems, then medium, and finally hard questions. Don't directly jump into Hard questions.
-- Hacker rank: https://www.hackerrank.com/domains/sql
-- Leetcode: https://leetcode.com/problemset/database/
-- Datalemur: https://datalemur.com/
----
-
-I have created a LinkedIn post attaching some youtube resources which discussed interview-related problems and help to solve interesting questions. check out this too.
-Link:  https://www.linkedin.com/posts/kirandeepmarala_sql-careers-data-activity-7012258071334854656-jRgf?utm_source=share&utm_medium=member_desktop
----
-
-Also, I highly recommend participating in the Codebasics SQL challenge, which has been conducted in the past, as it can help you brush up on your skills and provide an opportunity to test your knowledge further
-Link:  https://codebasics.io/challenge/codebasics-resume-project-challenge  (Challenge #4)"
-Why SUM() function not working in my Excel?,"Because of having  #N/A values, the SUM() function is not working as expected.
-
-so we need to handle this case by filling the #N/A(not available) with 0.
-
-Thread for further explanation: https://discord.com/channels/1090613684163850280/1107909641989525524/1107926537988227073"
-What is the difference between Business Analyst Vs Data Analyst,"While both business analysts and data analysts work with data, they have different focuses and responsibilities. Here are some key distinctions:
-
-1. Focus: Business analysts focus on the business side of things, such as business processes, workflows, and strategies. They use data analysis to identify business problems, opportunities, and solutions. Data analysts, on the other hand, focus on the data itself. They collect, process, and analyze data to extract insights and make data-driven decisions.
-2. Skill set: Business analysts need to have strong communication, problem-solving, and strategic thinking skills, as they often work closely with stakeholders and decision-makers to identify business needs and develop solutions. They also need to have some knowledge of data analysis, such as data visualization and basic statistical analysis. Data analysts, on the other hand, need to have a strong foundation in data analysis and programming skills, such as SQL, Python, etc. They also need to have a good understanding of data visualization and statistical analysis to derive insights from the data.
-3. Tools: Business analysts typically use tools like spreadsheets, business process modeling software, and business intelligence (BI) tools to analyze data and create reports. Data analysts use more advanced tools like statistical software, programming languages, and database management systems to collect, process, and analyze data.
-4. Outputs: Business analysts typically produce reports, presentations, and recommendations based on their analysis of the data. Data analysts produce statistical models, visualizations, and reports to help stakeholders understand the data and make informed decisions.
-
-I recommend watching this video by Dhaval sir which explained more details: https://www.youtube.com/watch?v=7sFRpbPKTG4&t=1s"
-"Can you state the distinction among the SAMEPERIODLASTYEAR(), PARALLELPERIOD(), and DATEADD() function in Power BI?","
-Here is the brief explanation.
-
-SAMEPERIODLASTYEAR() compares the given period with the exact same period of last year as the name suggests. But it has a limitation like King of the chess board - it can go only compare 1 year backward for a given day, month, week, or quarter. If you want to go backward or forward or if you need to go 3 or 6 months/years/days you need to use DATEADD().
-
-DATEADD() is more like the queen of the chessboard. It is very dynamic as it compares a day, month, quarter, year, etc. over any specified no. of time period.
-
-PARALLELPERIOD() works exactly like DATEADD() but there is a minor difference. Parallelperiod() does not work dynamically like DATEADD().
-
-For example, if you use PARALLELPERIOD() to get the previous month's value for dates between 1/5/2023 - 12/5/2023..it will compare these 12 days with the entire previous month of April 2023 (1/4/2023 - 30/4/2023) whereas DATEADD will compare the exact same days (1/4/2023- 12/4/2023).
-
-Likewise, if you use PARALLELPERIOD() to get the previous year's value for dates between 1/1/2023 - 12/5/2023..it will compare this time period with the entire previous year 2022 (1/1/2022 - 31/12/2022) whereas DATEADD will compare the exact same period (1/1/2022- 12/5/2022).
-
-Refer this thread for more info: https://discord.com/channels/1090613684163850280/1106528524023648326
-"
-My Excel Excel VLookup() showing formula instead of result,"Solution1:
-
-Please check the cell type, if it is 'text', change that to 'general', and once hit enter execute the formula.
-
-Solution2:
-
-The primary reason for this issue is the accidental enabling of the 'show formulas' mode.
- To gain more clarity and resolve the problem, please refer to the following resource: https://exceljet.net/articles/excel-shows-formula-not-result"
-I have a doubt regarding Vlookup() giving zero values in Exercise-3.,check this demo video to fix the issue: https://drive.google.com/file/d/1gp0krl2wMN0YhZYja3IKmt59SBsUK7xB/view?usp=share_link
-"i am unable to import data from mysql in power bi ,connector issue is coming continuously i have done all steps according to connector pdf still its not resolving please guide",Please refer to this thread: https://discord.com/channels/1090613684163850280/1107992760105054238/1107993007606730802
-Do data analysts need to learn database design?,"As a data analyst, it is not typically expected that you would be responsible for creating a database from scratch. However, you may be involved in designing the structure and schema of a database, as well as configuring and populating it with data.
-
-Creating a database usually falls under the purview of a database administrator (DBA) or a data engineer. These roles are focused on the technical aspects of database design, implementation, and maintenance.
-
-As a data analyst, your primary responsibilities would typically include querying and analyzing data within an existing database, creating reports and visualizations to communicate insights, and helping to inform business decisions based on data analysis. However, depending on the organization and the specific role, there may be some overlap or variation in responsibilities."
-Can you explain me more about the foreign key?,"A foreign key is a column or set of columns in a table that refers to the primary key of another table. It is used to establish a relationship between two tables in a relational database. The primary key of one table is used as a foreign key in another table to link the data between the tables.
-
-For example, let's say we have two tables in a database: a ""customers"" table and an ""orders"" table. The customer's table has a primary key column called ""customer_id"", and the orders table has a foreign key column called ""customer_id"" that references the ""customer_id"" column in the customer's table.
-
-By establishing this relationship between the two tables, we can ensure that every order in the orders table is associated with a valid customer in the customer's table."
-"I'm experiencing an issue where the target value appears the same in every row, and it is incorrect. Can you please help me understand why this is happening?","That is happening because you are pulling ""market"" from wrong table
-Pull ""Market"" From dim_market
-
-Check out this thread : https://discord.com/channels/1090613684163850280/1108671672434839562/1108672494958817301"
-"Hello Everyone, I am using 2016 excel. So far, I have noticed there are few functions which are not available in 2016 Excel like xlookup, unique etc. is there any option 
-available other than buying new updated version ?","Here are some add-in links. Please go through the videos , you will be able to use those functions in your Excel version. 
-
-? UNIQUE function:
-?? https://youtu.be/wiCH-YTacKU
-
-?XLOOKUP function: 
-?? https://www.youtube.com/watch?v=NWZaM7ZbE3Q
-or,
-?? https://www.youtube.com/watch?v=e60-J_u-K7o
-
-?? https://www.youtube.com/watch?v=TUTMfhCS62M"
-Can someone help me to create same chart exactly like this. I have created more than half of it. I want to add quadrant labels. Low medium high on x & y axis,Check this thread for instructions : https://discord.com/channels/1090613684163850280/1107745807848980490/1107746891418058762
-whenever I am loading fact_sales_monthly table in Power query not all columns are visible,"Have you taken SQL course in Codebasics first ?
-If yes, delete the existing databases in MySQL workbench and re-import again. After this go to 'Home' tab in Power Query and click on Refresh button and see if it works any.
-
-Check this reference too: https://discordapp.com/channels/1090613684163850280/1111180401478746163/1111190746507251732
-"
-The fact_sales_monthly table seems to be missing. Could you please provide information about why it is not available?,Delete the existing databases in MySQL workbench and re-import again. After this go to 'Home' tab in Power Query and click on Refresh button and see if it works any.
-"I am getting this error in PowerBI, 
-
-""there are pending changes in your queries that have havent been applied""
-
-Any suggestions to solve it?","To resolve the annoying message, follow these steps:
-1. Access Power Query by selecting 'Transform Data.'
-2. Click on 'Refresh Preview' and then choose 'Refresh All' to run a refresh on the tables.
-3. After completing the refresh, select 'Close & Apply' to save the changes.
-By following these steps, the annoying message should disappear.
-
-Check this reference for further details: https://community.fabric.microsoft.com/t5/Desktop/quot-There-are-pending-changes-in-your-queries-that-haven-t-been/td-p/1142424
-Hope this helps!"
-"I am encountering an error with the pre-invoice discount where I am receiving ""0"" values. Could you assist me in resolving this issue?","To troubleshoot the issue, please consider the following steps:
-
-1. Verify your data modeling by accessing ""Manage Relationships.""
-2. Review the measures you have created for any potential errors or inconsistencies.
-3. Ensure that the column format is set correctly as the ""Fixed Decimal Number"" type.
-By examining these aspects, you can address the pre-invoice discount error and resolve the issue.
-
-Check this reference for further details: https://discordapp.com/channels/1090613684163850280/1106513101693669466/1106516289905766433
-"
-The year column is missing in the P&L check. How can I resolve this issue and obtain the year column?,"Check this reference:
- https://discord.com/channels/1090613684163850280/1111101322406658098/1111137901816848494"
-There are missing values in the P&L check. How can I address this issue and handle the missing values appropriately?,"Check this reference:
-https://discordapp.com/channels/1090613684163850280/1108980495477395486/1109016973662240848"
-How can I rearrange the column order in the P&L check? I would like to change the order of the columns.,"Check this reference:
-https://discord.com/channels/1090613684163850280/1112342820930453516/1112399292792062022"
-Why is the year 2018 missing or disappeared?,"Check this reference:
-https://discordapp.com/channels/1090613684163850280/1111545547426369637/1111563527753318430"
-I'm experiencing a flat line in the Line chart of the Finance View. How can I address this issue and ensure the chart displays the expected data correctly?,"Check this reference:
-https://discord.com/channels/1090613684163850280/1112243985784774687/1112244353126113302"
-"During the process of creating the line chart for forecast accuracy vs month in the Supply Chain View, I encountered an issue with the visual representation.
-The problem occurred at the 5:00-minute mark. I selected the year 2021, expecting the graph to display data only from September 2020 to August 2021.
-However, instead of the desired timeframe, the chart displayed data from all months between 2017 and 2022.
-
-How to solve and fix this issue?
-","Check this reference:
-https://discordapp.com/channels/1090613684163850280/1113690341929918505/1113750218618445824"
-"It appears that the X-axis of the chart is not starting with the month of September as expected. Instead, it is starting with a different month.
-How to solve this?","Check this reference:
-https://discordapp.com/channels/1090613684163850280/1112567189724213339/1112596364862423090"
-Why we use Net error in place of absolute net error,"Directional Insight: The net error metric offers valuable information regarding the direction of the error in forecasting, distinguishing between positive (overestimation) and negative (underestimation) values. This enables the identification of specific products that consistently outperform or underperform relative to the expected values. Additionally, net error provides insights into the risk factor, indicating if there are instances of stockouts or excessive inventory levels."
-"I am encountering an issue where the NIS IND column has the same value in all rows. As a result, I am unable to obtain the correct value for the benchmark variable.
- How can I address this problem and obtain accurate benchmark values?","Have you taken the 'market' column from dim_market? Can you please check again. 
-
-Check this reference for further details: https://discordapp.com/channels/1090613684163850280/1107202294476443789/1107208944931311647"
-How do I update source in power query ?,"Follow the discord link : 
-
- https://discord.com/channels/1090613684163850280/1114113976616353832/1114121330925768754"
-How do I enable Power Pivot before using it for the first time ?,"Follow the process in the link : 
-
-https://drive.google.com/file/d/1-mO-v52h-YTY1s-v30liBJPu6Yj4OUxb/view?usp=share_link"
+Prompt,Response
+What does IPsec stand for?,IPsec stands for Internet Protocol Security.
+What is the primary purpose of IPsec?,IPsec's primary purpose is to provide secure communication over an IP network by authenticating and encrypting each IP packet.
+What are the two main IPsec protocols?,The two main IPsec protocols are Authentication Header (AH) and Encapsulating Security Payload (ESP).
+What layer of the OSI model does IPsec operate at?,IPsec operates at Layer 3 (the Network Layer) of the OSI model.
+What are the two modes of IPsec?,The two modes of IPsec are Transport Mode and Tunnel Mode.
+What is IPsec Transport Mode used for?,"Transport Mode is used for end-to-end security between two hosts, encrypting only the payload of the IP packet."
+What is IPsec Tunnel Mode used for?,"Tunnel Mode is used for network-to-network or host-to-network security, encrypting the entire original IP packet and adding a new IP header."
+Which IPsec mode is commonly used for VPNs?,Tunnel Mode is commonly used for Site-to-Site VPNs.
+What does AH provide?,"AH (Authentication Header) provides data integrity, data authentication, and anti-replay protection for IP packets."
+Does AH provide encryption?,"No, AH does not provide encryption."
+What does ESP provide?,"ESP (Encapsulating Security Payload) provides data encryption, data integrity, data authentication, and anti-replay protection."
+Which IPsec protocol is more commonly used today?,ESP is more commonly used today due to its encryption capabilities.
+What is a Security Association (SA) in IPsec?,A Security Association (SA) is a unidirectional logical connection that defines how two endpoints will use security services for a particular flow of traffic.
+What information is contained in an SA?,"An SA contains parameters like the IPsec protocol (AH/ESP), cryptographic algorithms, keys, lifetime, and Security Parameter Index (SPI)."
+What is the Security Parameter Index (SPI)?,"The SPI is a unique 32-bit identifier in the AH or ESP header that, along with the destination IP address and IPsec protocol, identifies a specific SA."
+What is Internet Key Exchange (IKE)?,IKE (Internet Key Exchange) is a protocol used to establish Security Associations (SAs) and manage cryptographic keys dynamically.
+What are the two phases of IKEv1?,IKEv1 has two phases: Phase 1 (Main Mode or Aggressive Mode) and Phase 2 (Quick Mode).
+What is the purpose of IKE Phase 1?,"IKE Phase 1 establishes a secure, authenticated channel (the IKE SA or ISAKMP SA) to protect subsequent IKE messages."
+What is the purpose of IKE Phase 2?,IKE Phase 2 (Quick Mode) negotiates the IPsec SAs that secure user data traffic.
+What are the common authentication methods in IKE?,Common authentication methods in IKE are pre-shared keys (PSK) and digital certificates.
+What is Diffie-Hellman (DH) used for in IKE?,Diffie-Hellman (DH) is used in IKE to securely exchange cryptographic keys over an unsecured channel.
+What is Perfect Forward Secrecy (PFS)?,"PFS (Perfect Forward Secrecy) ensures that if a single key is compromised, it does not compromise any past or future session keys."
+How is PFS typically achieved in IKE?,PFS is typically achieved by performing a new Diffie-Hellman key exchange for each IPsec SA (in IKE Phase 2).
+What is a Transform Set (or IPsec Proposal)?,"A Transform Set (or IPsec Proposal) defines the combination of security protocols (AH/ESP), encryption algorithms, and hashing algorithms to be used for IPsec SAs."
+Name common encryption algorithms used in IPsec.,"Common encryption algorithms include AES (128, 192, 256), 3DES, and DES."
+Name common hashing algorithms used in IPsec.,"Common hashing algorithms include SHA-256, SHA-384, SHA-512 (SHA-2 family), and MD5."
+What is the difference between IKEv1 and IKEv2?,"IKEv2 is a more robust, efficient, and streamlined protocol than IKEv1, offering better NAT traversal, mobility support, and fewer messages for SA establishment."
+Which IKE version is recommended for new deployments?,IKEv2 is generally recommended for new deployments.
+What is Dead Peer Detection (DPD)?,DPD (Dead Peer Detection) is a mechanism used to detect if an IPsec peer is no longer reachable or alive.
+How does DPD work?,DPD works by sending periodic keepalive messages to the peer and expecting a response within a timeout period.
+What is Network Address Translation-Traversal (NAT-T) in IPsec?,NAT-T allows IPsec-protected traffic to pass through NAT devices by encapsulating IPsec packets within UDP port 4500.
+Why is NAT-T important for IPsec?,"NAT-T is important because traditional IPsec (AH/ESP) alters the IP header, which interferes with NAT's ability to translate addresses."
+What is a Crypto ACL (or Traffic Selector/Proxy ID)?,"A Crypto ACL defines the interesting traffic"" that should be protected by the IPsec tunnel. It specifies source and destination IP addresses/subnets."""
+"What does interesting traffic"" mean in IPsec?""","Interesting traffic"" refers to the specific IP traffic that the IPsec peer devices are configured to encrypt and send through the VPN tunnel."""
+What is a Site-to-Site VPN?,"A Site-to-Site VPN connects two networks (e.g., branch office to headquarters) securely over an unsecured network like the internet."
+What is a Remote Access VPN?,"A Remote Access VPN allows individual users (e.g., remote workers) to securely connect to a private network from a remote location."
+What is a Virtual Tunnel Interface (VTI)?,"A VTI is a logical interface on a router used for route-based IPsec VPNs, where traffic is routed into the tunnel interface to be encrypted."
+What is the main advantage of route-based VPNs (using VTIs) over policy-based VPNs?,Route-based VPNs offer more flexibility in routing and can support dynamic routing protocols over the tunnel.
+What is a GRE over IPsec VPN?,"A GRE over IPsec VPN encapsulates GRE (Generic Routing Encapsulation) traffic within an IPsec tunnel, allowing non-IP traffic or multicast to traverse the VPN."
+What are common troubleshooting steps for IPsec VPNs?,"Common troubleshooting steps include checking phase 1 and phase 2 SAs, verifying connectivity, inspecting security policies, and checking logs."
+What command is used to check IKE SAs on Cisco routers?,`show crypto ikev2 sa` (for IKEv2) or `show crypto isakmp sa` (for IKEv1).
+What command is used to check IPsec SAs on Cisco routers?,`show crypto ipsec sa`.
+"What does crypto map"" refer to on Cisco devices?""","A crypto map is a configuration element used for policy-based IPsec VPNs, linking security policies to an interface."
+What is the role of a peer in IPsec?,"A peer is the remote IPsec device (router, firewall, host) with which an IPsec tunnel is established."
+"What is the concept of a crypto profile"" in IPsec?""",A crypto profile is a configuration element (often for VTI-based IPsec) that groups IPsec parameters (like transform-set) to be applied to a tunnel interface.
+Can IPsec provide encryption without authentication?,"Yes, ESP can provide encryption without authentication, but it's generally not recommended for strong security."
+Can IPsec provide authentication without encryption?,"Yes, AH provides authentication without encryption."
+What is replay protection in IPsec?,Replay protection prevents an attacker from capturing and re-transmitting valid IPsec packets to trick the receiver.
+How does IPsec's anti-replay mechanism work?,It uses a sequence number in the AH/ESP header and a sliding window on the receiver to detect and discard replayed packets.
+What is the default port for IKE?,The default port for IKE is UDP port 500.
+What port does NAT-T use for IPsec traffic?,NAT-T uses UDP port 4500.
+What is a firewall's role with IPsec?,"A firewall can terminate IPsec VPNs, or allow IPsec traffic to pass through if necessary ports (UDP 500, UDP 4500, ESP/AH protocols) are open."
+Can IPsec be used with IPv6?,"Yes, IPsec was designed to work with both IPv4 and IPv6."
+What is a DPD timeout?,A DPD timeout is the period of inactivity after which an IPsec peer is considered dead and the SA is torn down.
+"What is a crypto policy"" in some IPsec implementations?""","A crypto policy defines the suite of encryption, authentication, and key exchange algorithms that are acceptable for IKE Phase 1."
+What is a common reason for IKE Phase 1 negotiation failure?,"Mismatched pre-shared keys, incorrect peer IP addresses, or mismatched Phase 1 parameters (encryption, hashing, DH group) are common reasons."
+What is a common reason for IKE Phase 2 negotiation failure?,"Mismatched transform sets, incorrect interesting traffic definitions (proxy IDs), or mismatched PFS settings are common reasons."
+Can two IPsec tunnels share the same crypto map entry?,"No, each IPsec tunnel requires a unique crypto map entry or dedicated tunnel interface configuration."
+What is the purpose of an IPsec VPN tunnel interface in cloud environments?,"In cloud environments (like AWS/Azure), IPsec VPN tunnel interfaces are used to create secure connections between cloud VPCs/VNets and on-premises networks."
+What is the significance of the `ip verify reverse-path` command in relation to IPsec?,It's part of Unicast Reverse Path Forwarding (uRPF) which can conflict with asymmetric routing or multi-path VPNs if not configured carefully.
+What is a 'child SA' in IKEv2?,"A 'child SA' in IKEv2 is equivalent to the IPsec SA (Phase 2) in IKEv1, securing the actual data traffic."
+What is the 'IKE SA' in IKEv2?,"The 'IKE SA' in IKEv2 is the secure channel established in the first exchange, equivalent to the ISAKMP SA (Phase 1) in IKEv1."
+What is a 'key lifetime' in IPsec?,A key lifetime defines how long an SA and its keys remain valid before rekeying is required.
+Why is rekeying important in IPsec?,"Rekeying periodically changes the encryption keys to limit the amount of data encrypted with a single key, enhancing security against cryptanalysis."
+What is the difference between an IKEv2 `proposal` and an IKEv2 `profile`?,"An IKEv2 `proposal` defines acceptable cryptographic parameters (encryption, integrity, DH), while an IKEv2 `profile` binds these proposals to an interface and defines other IKEv2-specific settings (like local/remote identities)."
+Can IPsec be used to secure multicast traffic?,Native IPsec (AH/ESP) does not directly support multicast. GRE over IPsec is commonly used to encapsulate multicast traffic for secure transport.
+What is the role of an IPsec 'selector' or 'traffic selector'?,"It defines the IP addresses, protocols, and ports of the traffic that should be protected by a specific IPsec SA."
+What are the consequences of overlapping CIDR blocks in IPsec VPNs?,"Overlapping CIDR blocks prevent IPsec tunnels from being established or cause routing conflicts, making communication impossible between the networks."
+How does IPsec protect against MITM attacks?,"IPsec protects against MITM (Man-in-the-Middle) attacks primarily through strong authentication (PSK, certificates) during IKE Phase 1."
+Can IPsec tunnel mode be used for host-to-host communication?,"Yes, Tunnel Mode can be used for host-to-host, but Transport Mode is typically more efficient for that specific use case."
+What is the `df-bit` in relation to IPsec and fragmentation?,"The `df-bit` (Don't Fragment bit) in the IP header tells routers not to fragment the packet. IPsec encapsulation increases packet size, so packets might get dropped if the `df-bit` is set and they exceed MTU."
+How does IPsec handle fragmentation?,"Ideally, IPsec should avoid fragmentation by adjusting the Maximum Segment Size (MSS) or Maximum Transmission Unit (MTU) to accommodate the overhead."
+What is a common MTU for IPsec over the internet?,"A common effective MTU for IPsec over the internet is around 1380-1400 bytes, depending on the specific overhead."
+What is the purpose of a crypto engine in a router?,"A crypto engine (often hardware-accelerated) offloads cryptographic computations (encryption/decryption, hashing) from the main CPU, improving performance."
+What is a tunnel group in remote access VPNs?,"A tunnel group defines a set of attributes (authentication, authorization, encryption) that apply to remote access VPN users connecting to a specific group."
+How are IPsec SAs established in FlexVPN?,"FlexVPN uses IKEv2 and dynamically created VTIs to establish SAs, often simplifying large-scale spoke-to-spoke communication."
+What is the maximum number of IPsec SAs on a typical router?,This varies greatly by router model and memory. Enterprise-grade routers can handle thousands to tens of thousands of SAs.
+Can IPsec VPNs traverse multiple NAT devices?,"Yes, with NAT-T enabled, IPsec VPNs can traverse multiple NAT devices."
+What is the difference between VPN and IPsec?,VPN (Virtual Private Network) is a broader concept for creating a secure connection over a public network. IPsec is a specific suite of protocols commonly used to implement VPNs.
+What is a VPN headend?,A VPN headend is the central VPN gateway or concentrator that terminates multiple VPN tunnels from remote sites or users.
+What are the main security services provided by IPsec?,"Confidentiality (encryption), Integrity, Authentication, and Anti-replay protection."
+What is a Site-to-Site IPsec tunnel?,A Site-to-Site IPsec tunnel securely connects two geographically separated private networks over a public network like the internet.
+What is the primary goal of a Site-to-Site IPsec tunnel?,Its primary goal is to allow resources in one private network to securely communicate with resources in another private network as if they were on the same local network.
+What kind of traffic does a Site-to-Site tunnel protect?,It protects traffic between specified internal subnets or hosts on both sides of the tunnel.
+What are the main components required to establish a Site-to-Site IPsec tunnel?,"Two VPN gateways (routers/firewalls), IPsec configuration (IKE, IPsec policies), and routing information for remote networks."
+"In Site-to-Site IPsec, what does 'interesting traffic' refer to?",'Interesting traffic' is the specific IP traffic between the two private networks that needs to be encrypted and sent through the tunnel.
+What is the role of the VPN gateway in a Site-to-Site tunnel?,"The VPN gateway (e.g., router, firewall) acts as the endpoint for the IPsec tunnel, encrypting/decrypting traffic before it enters/leaves the private network."
+Does Site-to-Site IPsec typically use Transport Mode or Tunnel Mode?,Site-to-Site IPsec almost exclusively uses Tunnel Mode.
+Why is Tunnel Mode preferred for Site-to-Site VPNs?,"Tunnel Mode encrypts the entire original IP packet and adds a new outer IP header, making it ideal for connecting entire networks."
+What are the two phases of IKE (Internet Key Exchange) in a Site-to-Site setup?,IKE Phase 1 (Main Mode/Aggressive Mode) and IKE Phase 2 (Quick Mode).
+What is negotiated in IKE Phase 1 for a Site-to-Site tunnel?,"IKE Phase 1 establishes a secure, authenticated channel (ISAKMP SA) between the two VPN gateways."
+What is negotiated in IKE Phase 2 for a Site-to-Site tunnel?,IKE Phase 2 negotiates the actual IPsec SAs that protect the user data traffic between the two networks.
+What authentication methods are commonly used for Site-to-Site IKE?,Pre-shared keys (PSK) and digital certificates are common.
+"When setting up a Site-to-Site tunnel, what are common Phase 1 parameters that must match?","Encryption algorithm, hashing algorithm, Diffie-Hellman group, authentication method, and lifetime."
+"When setting up a Site-to-Site tunnel, what are common Phase 2 parameters that must match?","IPsec protocol (ESP/AH), encryption algorithm, hashing algorithm, Perfect Forward Secrecy (PFS) settings, and lifetime."
+What is the significance of non-overlapping CIDR blocks in Site-to-Site VPNs?,The local and remote network CIDR blocks must not overlap for routing to function correctly across the tunnel.
+Can dynamic routing protocols be run over a Site-to-Site IPsec tunnel?,"Yes, if the tunnel is route-based (e.g., using VTIs or GRE over IPsec), dynamic routing protocols like BGP or OSPF can be run over it."
+What is a common routing method for policy-based Site-to-Site tunnels?,"Static routes are commonly used for policy-based tunnels, pointing to the remote network via the VPN gateway's external interface."
+What is a common routing method for route-based Site-to-Site tunnels?,"Static routes pointing to the tunnel interface, or dynamic routing protocols running over the tunnel interface."
+What is NAT-Traversal (NAT-T) used for in Site-to-Site tunnels?,NAT-T allows IPsec traffic to pass through Network Address Translation (NAT) devices by encapsulating IPsec packets in UDP port 4500.
+Why is NAT-T important for Site-to-Site VPNs over the internet?,"Many organizations use NAT, and NAT-T ensures IPsec tunnels can be established even when one or both VPN gateways are behind NAT devices."
+What is Dead Peer Detection (DPD) used for in Site-to-Site tunnels?,"DPD is used to detect if the remote VPN gateway is no longer reachable, allowing the local gateway to tear down the tunnel and potentially re-establish it or failover."
+How does DPD help with failover in Site-to-Site VPNs?,"By quickly detecting dead peers, DPD enables quicker failover to redundant tunnels or paths."
+What is a 'local proxy ID' in a policy-based Site-to-Site tunnel?,The local proxy ID (or local traffic selector) defines the local network's CIDR or specific hosts whose traffic will be encrypted.
+What is a 'remote proxy ID' in a policy-based Site-to-Site tunnel?,The remote proxy ID (or remote traffic selector) defines the remote network's CIDR or specific hosts that are reachable via the tunnel.
+What happens if local and remote proxy IDs don't match?,The Site-to-Site IPsec tunnel will not establish or will fail during Phase 2 negotiation.
+What is the typical network setup for a Site-to-Site VPN gateway?,A VPN gateway usually has at least two interfaces: one connected to the internet/public network and one connected to the local private network.
+Can a Site-to-Site IPsec tunnel connect two AWS VPCs directly?,"No, AWS VPC peering is used for direct VPC-to-VPC connections. IPsec is typically used for VPC-to-on-premises or VPC-to-other-cloud connections."
+How are AWS Site-to-Site VPN connections typically configured on the AWS side?,"Using a Virtual Private Gateway (VGW) or a Transit Gateway, which handle the IPsec termination."
+What is the main benefit of using a Transit Gateway for Site-to-Site VPNs in AWS?,"Transit Gateway allows multiple VPCs to share a single VPN connection to on-premises, simplifying network architecture and routing."
+What is the difference between a policy-based and a route-based Site-to-Site VPN?,Policy-based uses ACLs to define interesting traffic; route-based uses a dedicated tunnel interface and routes traffic into it.
+Which type of Site-to-Site VPN is generally more flexible for complex routing?,Route-based VPNs are generally more flexible as they allow dynamic routing protocols.
+What is the role of a crypto map in a policy-based Site-to-Site VPN?,"A crypto map ties together the IPsec parameters (transform set), interesting traffic (ACL), and the remote peer for application to an interface."
+What is the role of a Virtual Tunnel Interface (VTI) in a route-based Site-to-Site VPN?,"A VTI is a logical interface that acts as the ingress/egress for encrypted traffic, allowing routing protocols to interact with it."
+Can Site-to-Site IPsec protect multicast traffic natively?,"No, native IPsec (AH/ESP) does not directly support multicast. GRE over IPsec is often used for this."
+How do you ensure Perfect Forward Secrecy (PFS) in a Site-to-Site tunnel?,By configuring the same DH group for PFS in IKE Phase 2 on both VPN gateways.
+What is an IPsec tunnel endpoint?,An IPsec tunnel endpoint is the IP address of the VPN gateway that terminates the IPsec tunnel on each side.
+What is a common reason for a Site-to-Site IPsec tunnel to fail to come up (Phase 1)?,"Mismatched pre-shared keys, incorrect public IP addresses for peers, or mismatched IKE Phase 1 proposals (encryption, hash, DH group, lifetime)."
+"What is a common reason for a Site-to-Site IPsec tunnel to come up, but traffic doesn't pass (Phase 2)?","Mismatched Phase 2 transform sets, incorrect 'interesting traffic' (proxy IDs/traffic selectors), or routing issues behind the VPN gateways."
+How do you troubleshoot routing issues in a Site-to-Site VPN?,"Verify static routes or BGP neighbors, check routing tables on"
