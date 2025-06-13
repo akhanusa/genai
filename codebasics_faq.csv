@@ -1635,7 +1635,6 @@ What happens if TTL is set too low?,"Can lead to excessive DNS queries, increasi
 What is an 'A Record'?,"Maps a domain name to an IPv4 address (e.g., example.com to 192.0.2.1)."
 What is an 'AAAA Record'?,"Maps a domain name to an IPv6 address (e.g., example.com to 2001:0db8::1)."
 What is a 'CNAME Record' (Canonical Name)?,"Maps an alias domain name to another canonical (true) domain name, not directly to an IP address."
-What is the limitation of CNAME records at the zone apex (e.g., example.com)?
 What is 'CNAME Flattening' (or ANAME/ALIAS records)?,A feature offered by some DNS providers that allows a CNAME-like behavior at the zone apex by resolving the target to an IP address and returning an A record instead of the CNAME.
 What is an 'MX Record' (Mail Exchanger)?,"Specifies the mail server(s) responsible for accepting email messages on behalf of a domain, including a preference value."
 What is the purpose of the preference value in MX records?,To indicate the order in which mail servers should be tried (lower value indicates higher preference).
@@ -1666,7 +1665,6 @@ What is `Split-Horizon DNS` (or Split-Brain DNS)?,A DNS configuration where the 
 When is Split-Horizon DNS typically used?,"In hybrid cloud or on-premises environments where internal users access resources via private IPs, while external users access via public IPs."
 What is a `DNS Registrar`?,An organization accredited to reserve and register domain names on behalf of individuals or organizations.
 What is a `DNS Hosting Provider`?,"A service that provides the authoritative DNS servers for your domain, where you manage your DNS records."
-What are `Domain Validation` (DV), `Organization Validation` (OV)
 What is a `SOA Record` (Start of Authority)?,"An essential DNS record that contains administrative information about a zone, such as the primary name server, the email of the domain administrator, and various timers."
 What are `DNS zones` types?,Primary (master) and Secondary (slave) zones.
 What is a `Primary DNS Zone`?,A zone file that is managed directly on the authoritative name server. All changes are made here.
@@ -1714,8 +1712,6 @@ What happens if an RPF check fails?,The multicast packet is dropped.
 What is `Any Source Multicast (ASM)`?,A multicast service model where receivers can join a multicast group (G) and receive traffic from *any* source (*) sending to that group.
 What is the primary PIM mode used for ASM?,PIM-Sparse Mode (PIM-SM).
 What is a `Rendezvous Point (RP)` in PIM-SM/ASM?,A router in the network that acts as a meeting point for sources and receivers for a specific multicast group range.
-What is a `Shared Tree` (`*,G` tree) in ASM?
-What is a `Source Tree` (`S,G` tree) in ASM?
 What is `Register Message` in PIM-SM?,"A message sent by a First-Hop Router (FHR) to the RP when it has active sources, encapsulating the source's multicast traffic."
 What is `Register Stop Message` in PIM-SM?,Sent by the RP to the FHR to stop sending Register messages once the RP has joined the source tree.
 What is `Join/Prune Message` in PIM-SM?,"Sent by routers to express interest in or no longer interest in multicast traffic, used to build and prune the shared tree and source tree."
@@ -1770,8 +1766,6 @@ What is `MD-VPN` (Multicast Domain VPN)?,"Another term for MVPN, referring to th
 What is `MVPN Extranets`?,"A specific configuration allowing a customer's multicast domain to span multiple customer VPNs, typically for content distribution to partners."
 What are the types of `MVPN Service Interfaces`?,"PIM interfaces (customer-facing) and MPLS interfaces (provider-facing, carrying P-Tunnels)."
 How does `MPLS Forwarding` help multicast in NG-MVPN?,"Leverages the high-performance label switching in the core, avoiding IP lookup overhead for multicast packets."
-What is `Source-Tree (S,G) Join`?
-What is `Shared-Tree (*,G) Join`?
 What is `Provider Edge (PE)` router in MVPN?,A router at the edge of the service provider's MPLS network that connects customer sites and participates in both unicast and multicast VPN services.
 What is `Provider (P)` router in MVPN?,A router in the service provider's MPLS core network that primarily performs label switching and does not maintain per-customer VPN states.
 What is `Customer Edge (CE)` router in MVPN?,A router at the customer's site that connects to the PE router and participates in the customer's multicast routing domain.
