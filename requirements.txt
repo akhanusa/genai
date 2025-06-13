@@ -5,6 +5,6 @@ faiss-cpu
 tiktoken 
 protobuf 
 langchain-community
-langchain-google-genai
+langchain_google_genai
 sentence_transformers 
 langchain_huggingface
