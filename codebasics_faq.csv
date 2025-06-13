@@ -123,7 +123,7 @@ What is a Site-to-Site IPsec tunnel?,A Site-to-Site IPsec tunnel securely connec
 What is the primary goal of a Site-to-Site IPsec tunnel?,Its primary goal is to allow resources in one private network to securely communicate with resources in another private network as if they were on the same local network.
 What kind of traffic does a Site-to-Site tunnel protect?,It protects traffic between specified internal subnets or hosts on both sides of the tunnel.
 What are the main components required to establish a Site-to-Site IPsec tunnel?,"Two VPN gateways (routers/firewalls), IPsec configuration (IKE, IPsec policies), and routing information for remote networks."
-In Site-to-Site IPsec, what does 'interesting traffic' refer to?
+In Site-to-Site Ipsec  what does 'interesting traffic' refer to?,"""Interesting traffic"" refers to the traffic that is defined to be encrypted and sent over the IPSec VPN tunnel between two sites."
 What is the role of the VPN gateway in a Site-to-Site tunnel?,"The VPN gateway (e.g., router, firewall) acts as the endpoint for the IPsec tunnel, encrypting/decrypting traffic before it enters/leaves the private network."
 Does Site-to-Site IPsec typically use Transport Mode or Tunnel Mode?,Site-to-Site IPsec almost exclusively uses Tunnel Mode.
 Why is Tunnel Mode preferred for Site-to-Site VPNs?,"Tunnel Mode encrypts the entire original IP packet and adds a new outer IP header, making it ideal for connecting entire networks."
@@ -154,7 +154,7 @@ Can Site-to-Site IPsec protect multicast traffic natively?,"No, native IPsec (AH
 How do you ensure Perfect Forward Secrecy (PFS) in a Site-to-Site tunnel?,By configuring the same DH group for PFS in IKE Phase 2 on both VPN gateways.
 What is an IPsec tunnel endpoint?,An IPsec tunnel endpoint is the IP address of the VPN gateway that terminates the IPsec tunnel on each side.
 What is a common reason for a Site-to-Site IPsec tunnel to fail to come up (Phase 1)?,"Mismatched pre-shared keys, incorrect public IP addresses for peers, or mismatched IKE Phase 1 proposals (encryption, hash, DH group, lifetime)."
-What is a common reason for a Site-to-Site IPsec tunnel to come up, but traffic doesn't pass (Phase 2)?
+What is a common reason for a Site-to-Site IPsec tunnel to come up  but traffic doesn't pass (Phase 2)?,"A common reason is a mismatch in the ""interesting traffic"" (proxy IDs/traffic selectors) definition on both sides of the tunnel."
 How do you troubleshoot routing issues in a Site-to-Site VPN?,"Verify static routes or BGP neighbors, check routing tables on both sides for correct remote network entries, and ensure no overlapping CIDRs."
 What is the impact of MTU mismatch on a Site-to-Site IPsec tunnel?,"MTU mismatch can lead to packet fragmentation, reassembly issues, and performance degradation or packet loss."
 How can you typically mitigate MTU issues in IPsec tunnels?,By adjusting the TCP MSS (Maximum Segment Size) value or the tunnel's MTU to account for IPsec overhead.
@@ -509,7 +509,7 @@ What is the significance of the `checksum` field in the IPv4 header?,It allows t
 Can an IPv4 address be used to identify a specific application on a host?,"No, an IP address identifies a host. Port numbers (used by TCP/UDP) identify specific applications/services on that host."
 What is the concept of a 'network ID' in IPv4?,"The portion of an IP address that identifies the specific network to which a device is connected, determined by the subnet mask."
 How does a router use the IPv4 routing table?,It matches the destination IP address of an incoming packet with entries in the routing table to determine the next hop and outgoing interface.
-What are some common IP address classes beyond A, B
+What are some common IP address classes beyond A, B or C or D or all
 What is the purpose of the 'Options' field in the IPv4 header?,"To allow for additional features like source routing, record route, or timestamp options (rarely used in modern networks)."
 What is a 'host route' in IPv4 routing?,"A specific route to a single IP address (e.g., /32) rather than a network range."
 What does IPv6 stand for?,IPv6 stands for Internet Protocol version 6.
@@ -671,7 +671,7 @@ What is the impact of a large number of spokes on the hub's performance?,"Increa
 What is the key difference in forwarding behavior between DMVPN Phase 1 and Phase 2/3 for spoke-to-spoke traffic?,Phase 1 forces traffic through the hub. Phase 2/3 allows direct spoke-to-spoke tunnels.
 What does SD-WAN stand for?,SD-WAN stands for Software-Defined Wide Area Network.
 What is the primary purpose of SD-WAN?,To simplify the management and operation of a Wide Area Network by decoupling the networking hardware from its control mechanism.
-What are the main benefits of SD-WAN over traditional WANs (e.g., MPLS)?
+What are the main benefits of SD-WAN over traditional WANs (e.g.  MPLS)?,"SD-WAN offers enhanced agility, lower costs, and improved application performance by intelligently utilizing multiple transport links, unlike traditional WANs that often rely solely on costly MPLS circuits."
 What are the key principles of SD-WAN?,"Centralized control and management, abstraction of underlying transport, application-aware routing, and automated provisioning."
 What is an 'underlay network' in SD-WAN?,"The physical or logical transport infrastructure (e.g., MPLS, broadband internet, LTE) that provides connectivity between sites."
 What is an 'overlay network' in SD-WAN?,"The virtual network created by the SD-WAN solution on top of the underlay, providing secure and optimized tunnels for traffic."
@@ -719,7 +719,7 @@ What is the concept of a `VPN fabric` in SD-WAN?,"The mesh of secure, encrypted 
 What are common challenges during SD-WAN migration?,"Careful planning of the phased rollout, ensuring seamless connectivity during transition, and integrating with existing network infrastructure."
 What is the role of `template-based configuration` in SD-WAN?,"It allows administrators to define standard configurations for different site types (e.g., small branch, large branch) and apply them rapidly and consistently."
 How does SD-WAN support `multi-homing`?,"By actively using multiple WAN links from different providers simultaneously, providing redundancy and increased bandwidth."
-What is an `SD-WAN Orchestrator` (e.g., Cisco vManage)?
+What is an `SD-WAN Orchestrator` (e.g.  Cisco vManage)?,"An SD-WAN Orchestrator (e.g., Cisco vManage) is the central management platform that provides a single pane of glass for automated configuration, policy enforcement, monitoring, and troubleshooting of the entire distributed SD-WAN network."
 What is `SD-WAN as a Service`?,"A deployment model where the SD-WAN infrastructure and management are provided by a service provider, reducing the customer's operational burden."
 What is a `cloud on-ramp` in SD-WAN?,"A feature that provides optimized, direct, and secure connectivity from the SD-WAN fabric to public cloud providers."
 What is `application visibility` in SD-WAN?,"The ability to identify and monitor specific applications and their performance metrics across the WAN, providing insights for optimization."
@@ -1644,7 +1644,6 @@ What information does an SRV record typically contain?,"Service, Protocol, Name,
 What is a 'TXT Record' (Text Record)?,"Holds arbitrary descriptive text. Commonly used for email authentication (SPF, DKIM, DMARC) or domain verification."
 What is `SPF` (Sender Policy Framework)?,An email authentication method that helps prevent email spoofing by allowing domain owners to specify which mail servers are authorized to send email on their behalf via a TXT record.
 What is `DKIM` (DomainKeys Identified Mail)?,"An email authentication method that uses a digital signature to verify the sender of an email and ensure the message hasn't been tampered with in transit, using a TXT record for the public key."
-What is `DMARC` (Domain-based Message Authentication, Reporting & Conformance)?
 What is a 'Wildcard DNS Record'?,"A record (e.g., `*.example.com`) that matches requests for undefined subdomains within a domain."
 What is `DNSSEC` (DNS Security Extensions)?,"A suite of specifications that add a layer of security to the DNS protocol by digitally signing DNS records, protecting against DNS spoofing and cache poisoning."
 How does DNSSEC protect against attacks?,"By providing origin authentication of DNS data and data integrity verification, ensuring that DNS responses are authentic and have not been tampered with."
