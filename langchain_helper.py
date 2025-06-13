@@ -1,4 +1,4 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain-google-genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 from langchain.chains import RetrievalQA
 from langchain.document_loaders.csv_loader import CSVLoader
