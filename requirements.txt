@@ -8,3 +8,4 @@ langchain-community
 langchain_google_genai
 sentence_transformers 
 langchain_huggingface
+chromadb
