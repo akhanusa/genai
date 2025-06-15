@@ -7,7 +7,6 @@ from langchain.vectorstores import Chroma
 from langchain.prompts import PromptTemplate
 import os
 import streamlit as st
-import chromadb
 
 # Read Gemini API key from Streamlit secrets
 gemini_api_key = st.secrets["GEMINI_API_KEY"]
