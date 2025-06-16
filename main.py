@@ -55,7 +55,7 @@ with col1:
 with col2:
     if st.button("Clear"):
         st.session_state.question = ""
- #       st.session_state.question_input = ""
+        st.session_state[question_input] = ""
         st.rerun()
 
 # --- Admin Controls ---
