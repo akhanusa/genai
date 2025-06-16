@@ -370,3 +370,6 @@ What is the default IS-IS metric value?,The default metric for an interface is t
 What are the two main levels in IS-IS hierarchy?,Level 1 (L1) and Level 2 (L2).
 What is a Level 1 (L1) router in IS-IS?,An L1 router exchanges routing information only within its own IS-IS area.
 What is a Level 2 (L2) router in IS-IS?,An L2 router exchanges routing information between IS-IS areas and potentially with external networks (like the internet).
+What is a Level 1/Level 2 (L1/L2) router in IS-IS?,An L1/L2 router maintains two separate Link-State Databases (LSDBs). One for its L1 area and one for the L2 backbone.
+How does an L1 router reach destinations outside its area?,"It sends traffic to the nearest L1/L2 router, which acts as a default gateway out of the area."
+What is an IS-IS area?,"An IS-IS area is a logical grouping of routers and networks, forming a hierarchical routing domain."
