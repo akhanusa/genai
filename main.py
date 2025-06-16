@@ -54,7 +54,7 @@ with col1:
             st.write(response["result"])
 with col2:
     if st.button("Clear"):
-#        st.session_state.question_input = ""
+        st.session_state.question_input = ""
         st.session_state.question = ""
         st.rerun()
 
