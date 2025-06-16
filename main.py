@@ -24,7 +24,7 @@ if st.session_state.authenticated:
     if st.button("Logout"):
         st.session_state.authenticated = False
         st.session_state.username = ""
-        st.experimental_rerun()
+        st.rerun()
 
 # --- Login Section ---
 with st.expander("🔐 Login"):
@@ -35,7 +35,7 @@ with st.expander("🔐 Login"):
             st.session_state.authenticated = True
             st.session_state.username = username
             st.success("Login successful!")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Invalid credentials")
 
@@ -56,7 +56,7 @@ with col2:
     if st.button("Clear"):
         st.session_state.question = ""
         st.session_state.question_input = ""
-        st.experimental_rerun()
+        st.rerun()
 
 # --- Admin Controls ---
 def show_admin_controls():
