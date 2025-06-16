@@ -14,7 +14,8 @@ if "username" not in st.session_state:
     st.session_state.username = ""
 if "question" not in st.session_state:
     st.session_state.question = ""
-    st.session_state.question_state = ""
+if "question_input" not in st.session_state:
+    st.session_state.question_input = ""
 
 # --- Title ---
 st.title("Codebasics Q&A 🌱")
