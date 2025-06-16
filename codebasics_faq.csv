@@ -367,23 +367,3 @@ What is the full name of the IS-IS standard?,ISO/IEC 10589.
 What transport layer does IS-IS use?,"IS-IS directly uses Layer 2 (Data Link Layer) framing, typically running on Ethernet or other data links. It doesn't use IP, TCP, or UDP."
 What is the IS-IS metric based on?,"The IS-IS metric is based on 'cost,' which is a configurable value for each interface."
 What is the default IS-IS metric value?,The default metric for an interface is typically 10 (on Cisco devices) or similar small integer.
-What are the two main levels in IS-IS hierarchy?,Level 1 (L1) and Level 2 (L2).
-What is a Level 1 (L1) router in IS-IS?,An L1 router exchanges routing information only within its own IS-IS area.
-What is a Level 2 (L2) router in IS-IS?,An L2 router exchanges routing information between IS-IS areas and potentially with external networks (like the internet).
-What is a Level 1/Level 2 (L1/L2) router in IS-IS?,An L1/L2 router maintains two separate Link-State Databases (LSDBs) – one for its L1 area and one for the L2 backbone.
-How does an L1 router reach destinations outside its area?,"It sends traffic to the nearest L1/L2 router, which acts as a default gateway out of the area."
-What is an IS-IS area?,"An IS-IS area is a logical grouping of routers and networks, forming a hierarchical routing domain."
-What is the equivalent of OSPF's Area 0 in IS-IS?,There isn't a single equivalent area number; the L2 backbone effectively acts as the inter-area routing domain.
-What are the main IS-IS PDU (Protocol Data Unit) types?,"Hello PDUs (IIHs), Link-State PDUs (LSPs), Sequence Number PDUs (SNPs)."
-What is the purpose of IS-IS Hello PDUs (IIHs)?,"To discover neighbors, establish adjacencies, and maintain the neighbor relationship."
-What is the purpose of IS-IS Link-State PDUs (LSPs)?,"To carry link-state information (router interfaces, neighbors, metrics) within an area or the L2 backbone."
-What are the two types of SNPs (Sequence Number PDUs)?,CSNPs (Complete SNPs) and PSNPs (Partial SNPs).
-What is the purpose of CSNPs?,To summarize the contents of the LSDB to ensure all neighbors have synchronized information.
-What is the purpose of PSNPs?,To request specific LSPs from a neighbor or acknowledge the receipt of specific LSPs.
-What is the equivalent of OSPF's DR/BDR in IS-IS?,The Designated Intermediate System (DIS).
-How is the DIS elected in IS-IS?,"Based on the highest IS-IS priority. If priorities are equal, then the highest MAC address (on broadcast networks)."
-What is the primary function of the DIS?,"To generate a pseudo-node LSP (similar to OSPF's Type 2 LSA) representing the broadcast segment, and to ensure reliable LSP flooding."
-What is a Link State Database (LSDB) in IS-IS?,"A topological map of the network, containing all the LSPs flooded within an area or the L2 backbone."
-What is an NSAP (Network Service Access Point) address in IS-IS?,"A hierarchical addressing scheme used to uniquely identify network entities (routers, hosts) within an IS-IS domain."
-What are the components of an NSAP address in IS-IS?,"Area ID, System ID, and N-Selector."
-What is the Area ID in an IS-IS NSAP?,Identifies the IS-IS area to which the router belongs. All routers in the same area share the same Area ID.
