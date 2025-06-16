@@ -348,3 +348,53 @@ What is `ip ospf priority` used for?,To influence DR/BDR election on multi-acces
 What is a common reason for `DR/BDR election` failure?,All routers having an OSPF priority of 0 (making them ineligible) or mismatched network types.
 What is the maximum number of areas recommended for an OSPF domain?,"It depends on network size and complexity, but generally keeping the number of areas manageable (e.g., tens to hundreds) is good practice."
 What happens if an OSPF area is not connected to Area 0?,"It becomes an isolated area, and routers in that area cannot reach destinations in other areas or the Internet unless a virtual link is configured."
+What is a 'stub router' in OSPF?,A router that is only connected to one other router (like a leaf node) and typically advertises a default route to its neighbor.
+What is the maximum number of links per OSPF router supported?,"Varies by router model and memory, but can be hundreds or thousands of links."
+What is the difference between `clear ip ospf process` and `clear ip ospf neighbor`?,`clear ip ospf process` restarts the entire OSPF process on the router. `clear ip ospf neighbor` only resets the adjacency with specific neighbors.
+What is the significance of the `dead interval` in OSPF Hello packets?,It's the time a router will wait for a Hello packet from a neighbor before declaring the neighbor down.
+What is the default `dead interval` in OSPF?,"4 times the Hello interval (e.g., 40 seconds for broadcast networks)."
+Can OSPF authenticate neighbors with different authentication types simultaneously?,"No, all neighbors on an interface must use the same authentication type."
+What is the role of a passive interface in OSPF?,It includes the connected network in OSPF advertisements but prevents OSPF Hello packets from being sent out of that interface.
+Why might you see Type 1 or Type 2 LSAs from a neighbor even if you are not 'full'?,"In the 2-Way state, routers know each other, but have not yet synchronized their LSDBs. LSAs are exchanged in later states."
+What is a flooding scope of a Type 1 LSA?,The LSA is flooded only within the area it originated from.
+What is a flooding scope of a Type 5 LSA?,The LSA is flooded throughout the entire OSPF AS (all areas except Stub and Totally Stubby).
+What is the purpose of OSPF Graceful Shutdown?,"To signal to OSPF neighbors that a router is going down for maintenance, allowing them to recalculate paths without immediately marking it as down."
+What does IS-IS stand for?,IS-IS stands for Intermediate System to Intermediate System.
+Is IS-IS an IGP or an EGP?,IS-IS is an IGP (Interior Gateway Protocol).
+What type of routing protocol is IS-IS?,"IS-IS is a link-state routing protocol, similar to OSPF."
+What is the primary original purpose of IS-IS?,To route CLNS (Connectionless Network Service) traffic. It was later extended for IP routing.
+What is the full name of the IS-IS standard?,ISO/IEC 10589.
+What transport layer does IS-IS use?,"IS-IS directly uses Layer 2 (Data Link Layer) framing, typically running on Ethernet or other data links. It doesn't use IP, TCP, or UDP."
+What is the IS-IS metric based on?,"The IS-IS metric is based on 'cost,' which is a configurable value for each interface."
+What is the default IS-IS metric value?,The default metric for an interface is typically 10 (on Cisco devices) or similar small integer.
+What are the two main levels in IS-IS hierarchy?,Level 1 (L1) and Level 2 (L2).
+What is a Level 1 (L1) router in IS-IS?,An L1 router exchanges routing information only within its own IS-IS area.
+What is a Level 2 (L2) router in IS-IS?,An L2 router exchanges routing information between IS-IS areas and potentially with external networks (like the internet).
+What is a Level 1/Level 2 (L1/L2) router in IS-IS?,An L1/L2 router maintains two separate Link-State Databases (LSDBs) – one for its L1 area and one for the L2 backbone.
+How does an L1 router reach destinations outside its area?,"It sends traffic to the nearest L1/L2 router, which acts as a default gateway out of the area."
+What is an IS-IS area?,"An IS-IS area is a logical grouping of routers and networks, forming a hierarchical routing domain."
+What is the equivalent of OSPF's Area 0 in IS-IS?,There isn't a single equivalent area number; the L2 backbone effectively acts as the inter-area routing domain.
+What are the main IS-IS PDU (Protocol Data Unit) types?,"Hello PDUs (IIHs), Link-State PDUs (LSPs), Sequence Number PDUs (SNPs)."
+What is the purpose of IS-IS Hello PDUs (IIHs)?,"To discover neighbors, establish adjacencies, and maintain the neighbor relationship."
+What is the purpose of IS-IS Link-State PDUs (LSPs)?,"To carry link-state information (router interfaces, neighbors, metrics) within an area or the L2 backbone."
+What are the two types of SNPs (Sequence Number PDUs)?,CSNPs (Complete SNPs) and PSNPs (Partial SNPs).
+What is the purpose of CSNPs?,To summarize the contents of the LSDB to ensure all neighbors have synchronized information.
+What is the purpose of PSNPs?,To request specific LSPs from a neighbor or acknowledge the receipt of specific LSPs.
+What is the equivalent of OSPF's DR/BDR in IS-IS?,The Designated Intermediate System (DIS).
+How is the DIS elected in IS-IS?,"Based on the highest IS-IS priority. If priorities are equal, then the highest MAC address (on broadcast networks)."
+What is the primary function of the DIS?,"To generate a pseudo-node LSP (similar to OSPF's Type 2 LSA) representing the broadcast segment, and to ensure reliable LSP flooding."
+What is a Link State Database (LSDB) in IS-IS?,"A topological map of the network, containing all the LSPs flooded within an area or the L2 backbone."
+What is an NSAP (Network Service Access Point) address in IS-IS?,"A hierarchical addressing scheme used to uniquely identify network entities (routers, hosts) within an IS-IS domain."
+What are the components of an NSAP address in IS-IS?,"Area ID, System ID, and N-Selector."
+What is the Area ID in an IS-IS NSAP?,Identifies the IS-IS area to which the router belongs. All routers in the same area share the same Area ID.
+What is the System ID in an IS-IS NSAP?,A unique 48-bit identifier for a specific router within an IS-IS area (often derived from the router's MAC address or Loopback IP).
+What is the N-Selector in an IS-IS NSAP?,A single byte (typically 0x00) that identifies a specific network service access point on the system.
+What is the SPF (Shortest Path First) algorithm in IS-IS?,The algorithm (Dijkstra's) used to calculate the shortest path to all destinations based on the LSDB.
+When does the SPF algorithm run in IS-IS?,"Whenever there is a change in the LSDB (e.g., link state change, LSA update)."
+How does IS-IS handle route summarization?,"Summarization can be done at L1/L2 routers when advertising routes between levels, or at L2 routers for external routes."
+What is route leaking in IS-IS?,Advertising L2 routes back into an L1 area (typically done to provide more specific routing than the default L1 gateway).
+What types of networks does IS-IS support?,"Broadcast (Ethernet), Point-to-Point, and Non-Broadcast Multi-Access (NBMA)."
+How does IS-IS differ from OSPF in terms of network type configuration?,"IS-IS often discovers network types automatically, while OSPF requires explicit configuration for some types."
+What is the `set-overload-bit` command in IS-IS?,"It instructs a router to set the overload bit in its LSPs, causing other routers to avoid using it for transit traffic (e.g., during maintenance)."
+What is the default metric for IS-IS?,"Typically a 'narrow' metric, ranging from 1 to 63."
+What is 'wide metrics' in IS-IS?,"An extension that allows for larger metric values (up to 2^24-1), supporting higher bandwidth links and more precise cost calculation."
