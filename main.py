@@ -58,9 +58,12 @@ with col2:
         st.session_state.question_input = ""
         st.experimental_rerun()
 
-# --- Show Knowledgebase Button if Admin Logged In ---
-if st.session_state.authenticated and st.session_state.username == "admin":
-    st.markdown("---")
-    if st.button("📚 Create Knowledgebase"):
-        create_vector_db()
-        st.success("Knowledgebase created/updated!")
+# --- Admin Controls ---
+def show_admin_controls():
+    if st.session_state.authenticated and st.session_state.username == "admin":
+        st.markdown("---")
+        if st.button("📚 Create Knowledgebase"):
+            create_vector_db()
+            st.success("Knowledgebase created/updated!")
+
+show_admin_controls()
