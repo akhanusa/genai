@@ -387,14 +387,3 @@ What is a Link State Database (LSDB) in IS-IS?,"A topological map of the network
 What is an NSAP (Network Service Access Point) address in IS-IS?,"A hierarchical addressing scheme used to uniquely identify network entities (routers, hosts) within an IS-IS domain."
 What are the components of an NSAP address in IS-IS?,"Area ID, System ID, and N-Selector."
 What is the Area ID in an IS-IS NSAP?,Identifies the IS-IS area to which the router belongs. All routers in the same area share the same Area ID.
-What is the System ID in an IS-IS NSAP?,A unique 48-bit identifier for a specific router within an IS-IS area (often derived from the router's MAC address or Loopback IP).
-What is the N-Selector in an IS-IS NSAP?,A single byte (typically 0x00) that identifies a specific network service access point on the system.
-What is the SPF (Shortest Path First) algorithm in IS-IS?,The algorithm (Dijkstra's) used to calculate the shortest path to all destinations based on the LSDB.
-When does the SPF algorithm run in IS-IS?,"Whenever there is a change in the LSDB (e.g., link state change, LSA update)."
-How does IS-IS handle route summarization?,"Summarization can be done at L1/L2 routers when advertising routes between levels, or at L2 routers for external routes."
-What is route leaking in IS-IS?,Advertising L2 routes back into an L1 area (typically done to provide more specific routing than the default L1 gateway).
-What types of networks does IS-IS support?,"Broadcast (Ethernet), Point-to-Point, and Non-Broadcast Multi-Access (NBMA)."
-How does IS-IS differ from OSPF in terms of network type configuration?,"IS-IS often discovers network types automatically, while OSPF requires explicit configuration for some types."
-What is the `set-overload-bit` command in IS-IS?,"It instructs a router to set the overload bit in its LSPs, causing other routers to avoid using it for transit traffic (e.g., during maintenance)."
-What is the default metric for IS-IS?,"Typically a 'narrow' metric, ranging from 1 to 63."
-What is 'wide metrics' in IS-IS?,"An extension that allows for larger metric values (up to 2^24-1), supporting higher bandwidth links and more precise cost calculation."
